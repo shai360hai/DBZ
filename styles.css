@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Character Section */
+#characters {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.character {
+    text-align: center;
+}
+
+.character img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Saga Section */
+#sagas {
+    margin-bottom: 50px;
+}
+
+.saga {
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Saga Section Styles */
+#sagas {
+    margin-bottom: 50px;
+}
+
+.saga {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffeb99;
+    border-radius: 8px;
+}
+
+.saga h3 {
+    color: #e68a00;
+    font-size: 1.5em;
+}
+
+.saga p {
+    font-size: 1em;
+    color: #333;
+}
+
+.saga ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #444;
+}
+
+/* Character Section Styles */
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.character {
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.character h3 {
+    color: #e65100;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.character p {
+    font-size: 0.95em;
+    color: #333;
+}
